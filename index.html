@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <div class="head">Rock Paper Scissors Game!
+    </div>
+    <div class="container">
+     <!-- DESCRIPTION SECTION -->
+     <div class="description">
+            <div class="header">Game description <span onclick="closeDesc()">x</span></div>
+            <div class="image-Container">
+                   <div class="images">  
+                        <img src="images/rock.png" alt="rock">
+                       <li>Rock</li>
+                  </div>
+                  <div class="images">  
+                     <img src="images/paper.png" alt="paper">
+                     <li>Paper</li>
+                  </div>
+                  <div class="images">  
+                       <img src="images/scissors.png" alt="scissors">
+                       <li>Scissors</li>
+                  </div>
+            </div>
+          <div class="paragraph">
+            <p>Rock Paper Scissors is a hand game usually played by two people, in which each player forms one of the thress shapes.<br>
+            A player who chooses to play rock would win the player who chooses scissors because Rock crushes Scissors but would loose to paper
+            because paper covers Rock. <br>A player who chooses scissors would win a player who plays paper because scissors cuts paper but would loose
+            Rock.
+            In this case it is a five round game and you are espected to play against a <b>Computer</b>.<br>
+            This game keeps your scores for each round of game play and at the end of five rounds it displays the winner of the game, Goodluck.
+
+            </p>
+        </div>
+     </div>
+     <!-- END OF DESCRIPTION SECTION -->
+     
+     <div class="game">
+            <a onclick="openDesc()" class="opendesc">Read aboout</a>
+            <div class="header">
+                <div class="image"><img src="images/kungfu.png" alt="kungfu"></div> 
+                <div class="alert"></div>
+            </div>
+            <h5>Game played: (<span class="counter"></span>)</h5>
+            
+            <div class="winner"><div class="win"></div></div>
+            <ul>
+                <li>Player Score: <span class="player"></span>
+                </li>
+                <li>computer Score: <span class="computer"></span></li>
+            </ul>
+    
+            <button class="button">Play Game</button> 
+            <button class="reset">Rest Game</button> 
+     </div> 
+       
+</div>
+      <footer>charles alright reserved &copy; november 22 2019</footer>
+        <script src="myscript.js"></script>
+
+</body>
+</html>
