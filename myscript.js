@@ -129,7 +129,8 @@
            
               function game(){ 
                 var element = ["rock", "paper", "scissors"];   
-                var playerSection = prompt("Choose element Rock, Paper or Scissors");
+                var player1 = prompt("Choose element Rock, Paper or Scissors");
+                var playerSection = player1.toLowerCase();
                 var compare = element.includes(playerSection);
                 if(counter < 5){
                     if(compare === true){
